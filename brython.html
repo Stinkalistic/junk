@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/brython@3.13.0/brython.min.js">
+    </script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/brython@3.13.0/brython_stdlib.js">
+    </script>
+</head>
+
+<body>
+
+<script type="text/python">
+import random
+from browser import document
+num = random.randint(1,10)
+guess = input("guess the number between 1 and 10")
+def crash():
+	while True: 
+		num = 444
+		num = num*123098
+		num = num/12314289519889
+print(num)
+if guess == 	num:
+	document.attach("you win")
+	e = input("you win winner")
+else:
+	document.attach("YOU SUCK")
+	e = input("YOU LOST LOSER")
+	crash()
+
+</script>
+
+
+</body>
+
+</html>
