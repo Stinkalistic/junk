@@ -1,0 +1,11 @@
+{
+"companyName": "von Lehe Creative",
+"productName": "Plangman",
+"dataUrl": "Minimal.data.unityweb",
+"asmCodeUrl": "Minimal.asm.code.unityweb",
+"asmMemoryUrl": "Minimal.asm.memory.unityweb",
+"asmFrameworkUrl": "Minimal.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"splashScreenStyle": "Dark",
+"backgroundColor": "#000000"
+}
