@@ -1,0 +1,20 @@
+{
+	"strings": {
+		"move_k1": "[icon=keyA][icon=keyD][icon=keyW] to move",
+		"move_g": "[icon=dpad] to move",
+		"move_k2": "[icon=keyLeft][icon=keyRight][icon=keyUp] to move",
+		"fallThrough_k1": "[icon=keyS] to fall through thin platforms",
+		"fallThrough_g": "[icon=dpadDown] to fall through thin platforms",
+		"fallThrough_k2": "[icon=keyDown] to fall through thin platforms",
+		"attack_k1": "[icon=keyF] to attack.\nPickup instantly finishes reload",
+		"attack_k2": "[icon=keyL] to attack.\nPickup instantly finishes reload",
+		"attack_g": "[icon=rightBumper] to attack.\nPickup instantly finishes reload",
+		"ready_k1": "READY",
+		"ready_k2": "READY",
+		"ready_g": "READY",
+		"gamepadOverall": "GAMEPAD \n [icon=padA] : CONFIRM/JUMP \n [icon=rightBumper] : SHOOT \n [icon=dpad] : DIRECTIONS",
+		"keyboard1": "KEYBOARD \n [icon=keyF] : CONFIRM/SHOOT \n [icon=keyW][icon=keyA][icon=keyS][icon=keyD]: DIRECTIONS",
+		"keyboard2": "KEYBOARD \n [icon=keyL] : CONFIRM/SHOOT \n [icon=keyUp][icon=keyLeft][icon=keyDown][icon=keyRight]: DIRECTIONS",
+		"nerfDescription": "[i]Nerfs are added to the opponents deck."
+	}
+}

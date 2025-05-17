@@ -1,0 +1,167 @@
+{
+	"doubleJump": {
+		"name": "Double Jump",
+		"description": "You can double jump."
+	},
+	"autoAim": {
+		"name": "Aim Bot",
+		"description": "Roughly shoot into the opponents direction."
+	},
+	"shield": {
+		"name": "Rotating Shield",
+		"description": "A rotating shield that absorbs bullets.",
+		"type": "construct"
+	},
+	"bouncingBullet": {
+		"name": "Bouncing Bullet",
+		"description": "Bullets bounces when they hit solids."
+	},
+	"splitShot": {
+		"name": "Split Shot",
+		"description": "Shoot two Bullets at once with a random split."
+	},
+	"fastReload": {
+		"name": "Sleight of Hand",
+		"description": "Faster reload."
+	},
+	"homing": {
+		"name": "Home, Sweet Home",
+		"description": "The bullet slightly homes towards your opponent."
+	},
+	"traveler": {
+		"name": "Traveler",
+		"description": "The bullet travels much further."
+	},
+	"sniper": {
+		"name": "Sniper",
+		"description": "The bullets fly much faster."
+	},
+	"penetration": {
+		"name": "Ghost Shot",
+		"description": "Your bullets travels through solids."
+	},
+	"salve": {
+		"name": "Burst Fire",
+		"description": "Fire three bullets at once, but reloading takes longer."
+	},
+	"autoShoot": {
+		"name": "Stuck Trigger",
+		"description": "Your opponent is force to shoot once reloaded.",
+		"type": "nerf"
+	},
+	"schmovement": {
+		"name": "Got Moves",
+		"description": "Faster movement."
+	},
+	"randomizer": {
+		"name": "Randomizer",
+		"description": "Your shots get a random buff applied."
+	},
+	"hugeBullets": {
+		"name": "Max Caliber",
+		"description": "Huge bullets, easier to hit the target and walls."
+	},
+	"rocketJump": {
+		"name": "Rocket Jump",
+		"description": "You shoot downwards, knockback launches you upwards."
+	},
+	"badAim": {
+		"name": "Bad Aim",
+		"description": "Your opponents shots are very inaccurate.",
+		"type": "nerf"
+	},
+	"autoJump": {
+		"name": "Pogo Stick",
+		"description": "Your opponent is periodically forced to jump.",
+		"type": "nerf"
+	},
+	"moon": {
+		"name": "Moon Gravity",
+		"description": "Your opponent jumps higher and falls slower.",
+		"type": "nerf"
+	},
+	"ninjitsu": {
+		"name": "Ninjitsu",
+		"description": "Shooting teleports you to the position of your last reload."
+	},
+	"spikySkin": {
+		"name": "Spiky Skin",
+		"description": "Destroy the opponent if they touch your body."
+	},
+	"defensiveShot": {
+		"name": "Defensive Shooting",
+		"description": "Your bullets destroy the opponents bullets."
+	},
+	"explodingBullets": {
+		"name": "Exploding Bullets",
+		"description": "Your bullets explode."
+	},
+	"lingeringBullets": {
+		"name": "Lingering Bullets",
+		"description": "Your bullets stay at the end of their path for a some time."
+	},
+	"drone": {
+		"name": "Drone",
+		"description": "A drone that follows you and sometimes shoots.",
+		"type": "construct"
+	},
+	"turret": {
+		"name": "Turret",
+		"description": "Create a turret at your spawn position.",
+		"type": "construct"
+	},
+	"zeus": {
+		"name": "Zeus' Wrath",
+		"description": "Your opponent is targeted by lightning strike at random intervals. \n \n ATTENTION: can hit both players."
+	},
+	"zigZag": {
+		"name": "Zig Zag Bullet",
+		"description": "Your bullets fly in a zig-zag path, making them harder to dodge."
+	},
+	"jumpSustain": {
+		"name": "Ultra Jump Sustian",
+		"description": "Keep holding jump to sustain your jump for even longer."
+	},
+	"heavyBullets": {
+		"name": "Heavy Bullets",
+		"description": "Your opponents bullets are slower and get pulled down by gravity.",
+		"type": "nerf"
+	},
+	"engineer": {
+		"name": "Engineer",
+		"description": "Improves effectiveness of Constructs.",
+		"skip": true
+	},
+	"selfDamage": {
+		"name": "Self Damage",
+		"description": "Your opponents bullets will hurt themselves.",
+		"type": "nerf"
+	},
+	"slipperyFloor": {
+		"name": "Slippery Floor",
+		"description": "Your opponent slides on the floor.",
+		"type": "nerf"
+	},
+	"easyTarget": {
+		"name": "Easy Target",
+		"description": "Your opponent is larger.",
+		"type": "nerf"
+	},
+	"faulty": {
+		"name": "Faulty Ammo",
+		"description": "Your oppenents shots sometimes don't fire correctly, bullet still travels a small distance.",
+		"type": "nerf"
+	},
+	"concentratedReload": {
+		"name": "Concentrated Reload",
+		"description": "Reload much faster if you are standing still."
+	},
+	"steve": {
+		"name": "Steve",
+		"description": "Pressing shoot during the reload places a destructible block."
+	},
+	"comeback": {
+		"name": "Comeback",
+		"description": "You get various buffs if your opponent is leading, the buffs are stronger the higher the point lead."
+	}
+}

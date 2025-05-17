@@ -1,0 +1,9 @@
+.input {
+	font-family: Oswald-Bold;
+	font-size: calc(var(--construct-scale) * 4em);
+	background-color: white;
+	border-color: black;
+	color: black;
+	padding: calc(var(--construct-scale) * 0.3em);
+	border-width: calc(var(--construct-scale) * 0.1em);
+}
