@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | 3D DESTRUCTION  DARK</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script type='text/javascript' src='//ad.mail.ru/static/admanhtml/rbadman-html5.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='//vk.com/js/api/adman_init.js' charset='utf-8'></script>
+     
+<script>
+window.addEventListener('load', function() {
+ 
+    var user_id = null; // user's id
+    var app_id = 7760750; // your app's id
+ 
+    admanInit({
+        user_id: user_id,
+        app_id: app_id,
+        // mobile: true, // for mobile apps
+        // params: {preview: 1}, // to verify the correct operation of advertising
+        type: 'rewarded' // 'preloader' or 'rewarded' (default - 'preloader')
+    }, onAdsReady, onNoAds);
+ 
+    function onAdsReady(adman) {
+        adman.onStarted(function () {});
+        adman.onCompleted(function() {});
+        adman.onSkipped(function() {});
+        adman.onClicked(function() {});
+        adman.start('preroll');
+    };
+ 
+    function onNoAds() {};
+});
+</script>
+  <noscript>请设置浏览器允许Javascript脚本运行</noscript>
+  
+    <script src="jquery-1.11.2.min.js"></script>
+    <script>
+        var gameInstance;
+        var isIE = false;
+		
+		   wwidth = 0;
+        wheight = 0;
+		
+        function bro() {
+            var isie = false;
+            var userAgent = window.navigator.userAgent; //包含以下属性中所有或一部分的字符串：appCodeName,appName,appVersion,language,platform
+            if ((userAgent.indexOf('MSIE')) != -1 ||(userAgent.indexOf('NET') != -1 && userAgent.indexOf("rv") != -1)) {
+                isie = true;
+                /*broName = 'IE浏览器'; */
+                strStart = userAgent.indexOf('rv');
+                strStop = userAgent.indexOf(')');
+                temp = userAgent.substring(strStart, strStop);
+                broName = temp.replace('rv', 'IE').replace(':', '版本号');
+            }
+            return isie;
+        }
+    </script>
+ </head>
+ <body style="background-color: white; padding: 0 0; margin: 0 0;;height:100%; width: 100%;">
+
+    <img id="mytips" class="imghide" src="TemplateData/nonsupport.png"/>
+   <div class="webgl-content" id="mywebgl" style="display: none;overflow: hidden;">
+        <div id="gameContainer" style="background-color: white;overflow: hidden;"></div>
+    </div>
+
+    <script type="text/javascript">
+        $(function () {
+		
+		    wwidth = $(window).innerWidth();
+            wheight = $(window).innerHeight();
+		
+            isIE = bro();
+            if (isIE) {
+                //如果是IE浏览器或者处于IE的兼容模式，则将WEBGL隐藏
+                $("#mywebgl").hide();
+                $("#mytips").show();
+
+
+            } else {
+
+                //如果不是IE浏览器或者没有处于IE的兼容模式，则将提示背景隐藏
+                $("#mytips").hide();
+                $("#mywebgl").show();
+				
+				  $("#mywebgl").css({ "height": "100%", "width": "100%" });
+                $("#gameContainer").css({ "width": wwidth+"px", "height": wheight+"px", "max-height": "100%", "position": "absolute", "z-index": -1, "left": 0, "top": 0 });
+				 $("canvas").css({ "width": wwidth + "px", "height": wheight + "px"});
+				
+				   $(window).resize(function () {
+                    
+                    wwidth = $(window).innerWidth();
+                    wheight = $(window).innerHeight();
+					
+                    $("#gameContainer").css({ "width": wwidth + "px", "height": wheight + "px", "max-height": "100%", "position": "absolute","z-index": -1, "left": 0, "top": 0 });
+					 $("canvas").css({ "width": wwidth + "px", "height": wheight + "px", "max-height": "100%" });
+
+                });
+
+				
+                $.getScript("TemplateData/UnityProgress.js",function(){
+				  $.getScript("Build/UnityLoader.js",function() {
+				  
+                    gameInstance = UnityLoader.instantiate("gameContainer", "Build/3D Destruction Dark.json", { onProgress: UnityProgress });
+
+                });
+				
+				});
+            }
+        });
+    </script>
+        <div id="vk_ads_131739"></div>
+<script type="text/javascript">
+  setTimeout(function() {
+    var adsParams = {"ad_unit_id":131739,"ad_unit_hash":"169ce043c00f72800eb803fdbd9827bf"};
+    function vkAdsInit() {
+      VK.Widgets.Ads('vk_ads_131739', {}, adsParams);
+    }
+    if (window.VK && VK.Widgets) {
+      vkAdsInit();
+    } else {
+      if (!window.vkAsyncInitCallbacks) window.vkAsyncInitCallbacks = [];
+      vkAsyncInitCallbacks.push(vkAdsInit);
+      var protocol = ((location.protocol === 'https:') ? 'https:' : 'http:');
+      var adsElem = document.getElementById('vk_ads_131739');
+      var scriptElem = document.createElement('script');
+      scriptElem.type = 'text/javascript';
+      scriptElem.async = true;
+      scriptElem.src = protocol + '//vk.com/js/api/openapi.js?168';
+      adsElem.parentNode.insertBefore(scriptElem, adsElem.nextSibling);
+    }
+  }, 0);
+</script>
+    
+  </body>
+</html><script defer src="https://static.itch.io/htmlgame.js" type="text/javascript"></script>
