@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -43,12 +42,12 @@
 <body>
 	<div id="gameContainer">
 		<canvas id="unity-canvas" data-pixel-art=""></canvas>
-		<script src="Build/Web.loader.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/Stinkalistic/junk@main/klifur/Build/Web.loader.js"></script>
 		<script>
 			createUnityInstance(document.querySelector("#unity-canvas"), {
-				dataUrl: "Build/Web.data.gz",
-				frameworkUrl: "Build/Web.framework.js.gz",
-				codeUrl: "Build/Web.wasm.gz",
+				dataUrl: "https://cdn.jsdelivr.net/gh/Stinkalistic/junk@main/klifur/Build/Web.data.gz",
+				frameworkUrl: "https://cdn.jsdelivr.net/gh/Stinkalistic/junk@main/klifur/Build/Web.framework.js",
+				codeUrl: "https://cdn.jsdelivr.net/gh/Stinkalistic/junk@main/klifur/Build/Web.wasm.gz",
 				streamingAssetsUrl: "StreamingAssets",
 				companyName: "Torfi",
 				productName: "Klifur",
