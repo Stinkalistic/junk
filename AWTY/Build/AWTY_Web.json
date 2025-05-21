@@ -1,0 +1,13 @@
+{
+"companyName": "RamiCreates",
+"productName": "AreWeThereYet?",
+"dataUrl": "AWTY_Web.data.unityweb",
+"asmCodeUrl": "AWTY_Web.asm.code.unityweb",
+"asmMemoryUrl": "AWTY_Web.asm.memory.unityweb",
+"asmFrameworkUrl": "AWTY_Web.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
