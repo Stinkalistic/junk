@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Wart's Turn-Based Revenge",
+"productVersion": "0.1",
+"dataUrl": "Warts turn based revenge WEBGL.data.unityweb",
+"wasmCodeUrl": "Warts turn based revenge WEBGL.wasm.code.unityweb",
+"wasmFrameworkUrl": "Warts turn based revenge WEBGL.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.32f1"
+}
