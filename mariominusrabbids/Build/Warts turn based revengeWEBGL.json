@@ -2,7 +2,7 @@
 "companyName": "DefaultCompany",
 "productName": "Wart's Turn-Based Revenge",
 "productVersion": "0.1",
-"dataUrl": "Warts turn based revenge WEBGL.data.unityweb",
+"dataUrl": "https://github.com/Stinkalistic/junk/raw/refs/heads/main/mariominusrabbids/Build/Warts%20turn%20based%20revenge%20WEBGL.data.unityweb",
 "wasmCodeUrl": "Warts turn based revenge WEBGL.wasm.code.unityweb",
 "wasmFrameworkUrl": "Warts turn based revenge WEBGL.wasm.framework.unityweb",
 "graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
